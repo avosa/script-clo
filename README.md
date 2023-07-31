@@ -3,7 +3,6 @@
 This script automates the installation process of Clojure and Leiningen, the popular tools for Clojure development. It provides support for macOS (both Intel and M1 chips), Linux (Debian-based and Fedora-based), and Windows (both 32-bit and 64-bit) platforms. The script detects the current environment and installs the appropriate versions of Clojure and Leiningen accordingly.
 
 ## Usage as a Shell Script
-To run the script as a shell script, make sure you have Ruby installed on your system, and then follow these steps:
 
 1. Open a terminal and navigate to the directory containing `clo.rb`.
 
@@ -24,7 +23,7 @@ chmod +x clo.rb
 ruby clo.rb
 ```
 
-The script will automatically detect your system architecture and operating system and install Clojure and Leiningen accordingly.
+The script will automatically detect your system architecture and operating system and install Ruby, Clojure and Leiningen accordingly.
 
 ## Note
 - The script may prompt for administrative privileges on macOS and Linux during package installation.
